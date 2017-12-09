@@ -1,0 +1,29 @@
+{
+  "name": "starwars-names",
+  "version": "1.0.0",
+  "description": "Get random names for starwars characters",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mannanali413/starwars-names.git"
+  },
+  "keywords": [
+    "random",
+    "js",
+    "library",
+    "star",
+    "wars"
+  ],
+  "author": "Mir Mufaqam Ali <mannanali413@gmail.com> (https://mahim.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mannanali413/starwars-names/issues"
+  },
+  "homepage": "https://github.com/mannanali413/starwars-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
