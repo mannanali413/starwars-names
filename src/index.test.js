@@ -23,5 +23,13 @@ describe('mufaqams-starswars-names', function(){
       var randomEntry = starWars.random();
       expect(starWars.all).to.include(randomEntry);
     });
+
+    it('should return an array of random items if passed a number', function(){
+      var randomItems = starWars.random(3);
+      expect(randomItems).to.have.length(3);
+      randomItems.forEach(function(item){
+        expect(starWars.all).to.include(item);
+      })
+    });
   });
 });
